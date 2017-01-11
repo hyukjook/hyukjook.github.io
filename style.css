@@ -1,53 +1,211 @@
-<style>
-    #header{
-        min-height: 100px;
-        background-color: #FFFFFF;
-    }
-    #menu{
-        min-height: 40px;
-        background-color: #FFFFFF;
-    }
-    #body{
-        min-height: 400px;
-        background-color: #FFFFFF;
-    }
-    #footer{
-        min-height: 100px;
-        background-color: #FFFFFF;
-    }
-    #header, #menu, #body, #footer{
-        margin-left: 5%;
-        margin-right: 5%;
+/* Setting up our grid */
+h1{
+font-family: Century Gothic, sans-serif;
+font-size: 50px;
+text-align: center;
+color: #F1A9A0;
+}
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
 
-    }
-    @viewport{
-        zoom: 1.0;
-        width: extend-to-zoom;
-    }
-    @-ms-viewport{
-        width: extend-to-zoom;
-        zoom: 1.0;
-    }
-    .video-container {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
-    }
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
 
-    .video-container iframe, .video-container object, .video-container embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    }
+header {
+	height: 73px;
+	background-color:#FFFFFF;
+}
+.hero-image {
+	height: 510px;
+  	background: url(img/_MG_0535.jpg) no-repeat center center ;
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-    .vimeovideowrap, .content, .youtubevideowrap, #disqus_thread, .videocontent {
-    width:80%;
-    max-width: 640px;
-    margin: 0 auto;
-    }
+.row3 .six, .row3 .three {
+	height: 333px;
+}
+.row4 .six, .row4 .three {
+	height: 333px;
 
-</style>
+}
+.row5 .six, .row5 .three {
+	height: 333px;
+
+}
+.row6 .six, .row6 .three {
+	height: 333px;
+
+}
+.last {
+	height: 73px;
+	background-color: #FFFFFF;
+}
+.row3 .left {
+	background: url(img/_MG_0114.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row3 .middle{
+	background: url(img/livingpic/piershrimp.gif) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row3 .right{
+	background: url(img/_MG_0079.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row4 .left {
+	background: url(img/livingpic/MVI_0695.gif) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row4 .middle{
+	background: url(img/_MG_8977.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row4 .right{
+	background: url(img/_MG_9004.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row5 .left {
+	background: url(img/_MG_9043.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row5 .right {
+	background: url(img/livingpic/pierarcade.gif) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row5 .middle1{
+	background: url(img/_MG_9087.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row5 .middle2{
+	background: url(img/_MG_9036.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row6 .left {
+	background: url(img/_MG_9189.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row6 .middle{
+	background: url(img/_MG_9183.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.row6 .right{
+	background: url(img/_MG_9218.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+footer {
+	height: 500px;
+	background: url(img/_MG_0584.jpg) no-repeat center center;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+}
