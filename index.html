@@ -9,27 +9,42 @@
 
 <body>
     <div id="particles-js">
-
-
       <div id="first">
         <h1>HyukJoo Kwon</h1>
         <p>Computer Science Major. University at Buffalo</p>
-        <a href="mailto:hyukjook@buffalo.edu">
-          <img src="email.png" alt="email" width="36" height="36" >
-        </a>
-          &ensp;
-        <a href="https://www.instagram.com/hzoofoto">
-          <img src="instagram.png" alt="instagram" width="35"height="35" >
-        </a>
+
       </div>
-
-
-
-
     </div>
 
-    <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <div id="second">
+      <h1>Contacts</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+      </p>
+      <a href="mailto:hyukjook@buffalo.edu">
+        <img src="email.png" alt="email" width="36" height="36" >
+      </a>
+        &ensp;
+      <a href="https://www.instagram.com/hzoofoto">
+        <img src="instagram.png" alt="instagram" width="35"height="35" >
+      </a>
+      
+    </div>
+
+
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="scrollreveal.js"></script>
+
+<script>
+  window.sr = ScrollReveal({ reset: true });
+  sr.reveal('#first',{ duration: 1000 });
+  sr.reveal('#second',{
+     duration: 2500,
+     origin:'left',
+     distance:'300px'
+   });
+</script>
 
 
 </body>

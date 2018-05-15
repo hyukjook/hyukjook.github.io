@@ -1,5 +1,6 @@
 
 body{
+  height: 100%;
   margin: 0;
   font-size: 50px;
   font-family: 'Nanum Gothic', sans-serif;
@@ -15,16 +16,21 @@ body{
 
 }
 
-h1{
+#first h1{
   font-size: 70px;
 }
 
-
+#second h1{
+  font-size: 50px;
+}
+#second p{
+  font-size: 25px;
+}
 #particles-js{
   background-image: url(background.jpg);
   height: 100vh;
-  width: auto;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -32,4 +38,23 @@ a{
   border: 0 none;
   text-decoration: none;
   margin-bottom: 100px;
+}
+
+#second {
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sthird{
+
+  text-align: center;
+  left: 50px;
+  right: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
